@@ -7,7 +7,9 @@ const router = new express.Router();
 //endpoint 
 router.get('/', (req, res, next) => {
     res.status(200).send({
-        "nome" :"Pedro Henrique"
+        "nome" :"Pedro Henrique",
+        "idade": "19",
+        "signo": "aquario" 
     });
 });
 
